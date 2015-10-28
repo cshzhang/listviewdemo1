@@ -2,7 +2,7 @@
 防android系统联系人功能------分组导航，挤压动画，快速滚动
 
 # 效果图
-<img src="listviewdemo1.gif" width="320px"/>
+<img src="lvdemo1.gif" width="320px"/>
 
 # 知识点
 * 1.SectionIndexer接口，这个接口可以有效的帮助我们对分组进行控制。我们直接使用android系统提供的AlphabetIndexer类。
@@ -26,4 +26,4 @@ if(position == mIndexer.getPositionForSection(section))
     sectionLayout.setVisibility(View.GONE);
 }
 ```
-* 4.剩下的功能；比如挤压功能，字母表快速滑动等就请各位看官直接看代码
+* 4.剩下的功能；比如挤压功能，字母表快速滑动等就请各位看官移步代码。
