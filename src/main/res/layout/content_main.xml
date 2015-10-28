@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_main"
+    tools:context=".MainActivity">
+    
+    <ListView
+        android:id="@+id/id_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:fadingEdge="none"
+        android:background="#eee">
+    </ListView>
+    
+    <LinearLayout
+        android:id="@+id/id_section_layout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:background="#303030">
+        <TextView
+            android:id="@+id/id_tv_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_section_btn"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/a_z"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/id_float_section_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/section_bg"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:visibility="gone"/>
+    
+</RelativeLayout>
